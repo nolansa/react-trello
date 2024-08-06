@@ -20,7 +20,7 @@
     "deploy-storybook": "storybook-to-ghpages",
     "format": "pretty-quick \"src/**/*.js\"",
     "size": "size-limit",
-    "prepare": "npm run build"
+    "prepare": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
