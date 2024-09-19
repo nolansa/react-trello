@@ -19,11 +19,12 @@
     "commit": "git cz",
     "deploy-storybook": "storybook-to-ghpages",
     "format": "pretty-quick \"src/**/*.js\"",
-    "size": "size-limit"
+    "size": "size-limit",
+    "prepare": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rcdexta/react-trello"
+    "url": "https://github.com/nolansa/react-trello"
   },
   "keywords": [
     "react",
